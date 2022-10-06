@@ -1,0 +1,30 @@
+body {
+    padding: 16px;
+    background-color: blueviolet;
+    color: white;
+}
+
+#skjemaKveldsmat {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    align-items: center;
+    font-size: 24px;
+}
+
+#skjemaKveldsmat input {
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid darkblue;
+}
+
+.button {
+    grid-column: span 2;
+    background-color: lightcoral;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+#info {
+    color: yellow;
+}
